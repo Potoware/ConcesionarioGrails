@@ -1,0 +1,184 @@
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO VEHICULO (MARCA, MODELO, AÑO, COLOR, SERIAL, ESTADO) VALUES [*]"; se esperaba "ROW, (, DEFAULT, NOT, EXISTS, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO VEHICULO (MARCA, MODELO, AÑO, COLOR, SERIAL, ESTADO) VALUES [*]"; expected "ROW, (, DEFAULT, NOT, EXISTS, INTERSECTS"; SQL statement:
+INSERT INTO Vehiculo (marca, modelo, año, color, serial, estado) VALUES [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Toyota'[*], 'Corolla', 2021, 'Negro', '1234A', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Toyota'[*], 'Corolla', 2021, 'Negro', '1234A', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Toyota', 'Corolla', 2021, 'Negro', '1234A', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Nissan'[*], 'Sentra', 2020, 'Rojo', '5678B', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Nissan'[*], 'Sentra', 2020, 'Rojo', '5678B', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Nissan', 'Sentra', 2020, 'Rojo', '5678B', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Honda'[*], 'Civic', 2019, 'Blanco', '9012C', 'DISPONIBLE')"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Honda'[*], 'Civic', 2019, 'Blanco', '9012C', 'DISPONIBLE')"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Honda', 'Civic', 2019, 'Blanco', '9012C', 'DISPONIBLE') [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "VENDEDOR" no encontrada
+Table "VENDEDOR" not found; SQL statement:
+INSERT INTO Vendedor (nombres, apellidos, fechaNacimiento, identificacion, fechaIngreso, cargo) VALUES [42102-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Juan'[*], 'Pérez', '1995-01-01', '123456789', '2020-01-01', 'Gerente Comercial'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Juan'[*], 'Pérez', '1995-01-01', '123456789', '2020-01-01', 'Gerente Comercial'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Juan', 'Pérez', '1995-01-01', '123456789', '2020-01-01', 'Gerente Comercial'), [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('María'[*], 'Gómez', '1996-02-02', '234567890', '2021-02-02', 'Coordinador Comercial'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('María'[*], 'Gómez', '1996-02-02', '234567890', '2021-02-02', 'Coordinador Comercial'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('María', 'Gómez', '1996-02-02', '234567890', '2021-02-02', 'Coordinador Comercial'), [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Pedro'[*], 'Martínez', '1997-03-03', '345678901', '2022-03-03', 'Auxiliar Vitrina')"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Pedro'[*], 'Martínez', '1997-03-03', '345678901', '2022-03-03', 'Auxiliar Vitrina')"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Pedro', 'Martínez', '1997-03-03', '345678901', '2022-03-03', 'Auxiliar Vitrina') [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente (nombres, apellidos, fechaNacimiento, identificacion, telefono, celular) VALUES [42102-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Andrea'[*], 'López', '1998-04-04', '456789012', '555-1234', '555-9876'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Andrea'[*], 'López', '1998-04-04', '456789012', '555-1234', '555-9876'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Andrea', 'López', '1998-04-04', '456789012', '555-1234', '555-9876'), [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Jorge'[*], 'Díaz', '1999-05-05', '567890123', '555-2345', '555-8765'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Jorge'[*], 'Díaz', '1999-05-05', '567890123', '555-2345', '555-8765'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Jorge', 'Díaz', '1999-05-05', '567890123', '555-2345', '555-8765'), [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Ana'[*], 'González', '2000-06-06', '678901234', '555-3456', '555-7654')"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Ana'[*], 'González', '2000-06-06', '678901234', '555-3456', '555-7654')"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Ana', 'González', '2000-06-06', '678901234', '555-3456', '555-7654') [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO VEHICULO (MARCA, MODELO, AÑO, COLOR, SERIAL, ESTADO) VALUES [*]"; se esperaba "ROW, (, DEFAULT, NOT, EXISTS, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO VEHICULO (MARCA, MODELO, AÑO, COLOR, SERIAL, ESTADO) VALUES [*]"; expected "ROW, (, DEFAULT, NOT, EXISTS, INTERSECTS"; SQL statement:
+insert into Vehiculo (marca, modelo, año, color, serial, estado) values [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Toyota'[*], 'Camry', 2020, 'Negro', 'P1234', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Toyota'[*], 'Camry', 2020, 'Negro', 'P1234', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Toyota', 'Camry', 2020, 'Negro', 'P1234', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Honda'[*], 'Civic', 2021, 'Blanco', 'P1235', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Honda'[*], 'Civic', 2021, 'Blanco', 'P1235', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Honda', 'Civic', 2021, 'Blanco', 'P1235', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Nissan'[*], 'Altima', 2019, 'Gris', 'P1236', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Nissan'[*], 'Altima', 2019, 'Gris', 'P1236', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Nissan', 'Altima', 2019, 'Gris', 'P1236', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Chevrolet'[*], 'Impala', 2018, 'Rojo', 'P1237', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Chevrolet'[*], 'Impala', 2018, 'Rojo', 'P1237', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Chevrolet', 'Impala', 2018, 'Rojo', 'P1237', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Ford'[*], 'Fusion', 2021, 'Azul', 'P1238', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Ford'[*], 'Fusion', 2021, 'Azul', 'P1238', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Ford', 'Fusion', 2021, 'Azul', 'P1238', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Jeep'[*], 'Grand Cherokee', 2020, 'Verde', 'P1239', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Jeep'[*], 'Grand Cherokee', 2020, 'Verde', 'P1239', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Jeep', 'Grand Cherokee', 2020, 'Verde', 'P1239', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Tesla'[*], 'Model 3', 2020, 'Plateado', 'P1240', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Tesla'[*], 'Model 3', 2020, 'Plateado', 'P1240', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Tesla', 'Model 3', 2020, 'Plateado', 'P1240', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Kia'[*], 'Optima', 2021, 'Morado', 'P1241', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Kia'[*], 'Optima', 2021, 'Morado', 'P1241', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Kia', 'Optima', 2021, 'Morado', 'P1241', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Subaru'[*], 'Outback', 2020, 'Naranja', 'P1242', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Subaru'[*], 'Outback', 2020, 'Naranja', 'P1242', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Subaru', 'Outback', 2020, 'Naranja', 'P1242', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:37:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Mazda'[*], 'CX-5', 2021, 'Café', 'P1243', 'DISPONIBLE')"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Mazda'[*], 'CX-5', 2021, 'Café', 'P1243', 'DISPONIBLE')"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Mazda', 'CX-5', 2021, 'Café', 'P1243', 'DISPONIBLE') [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO VEHICULO (MARCA, MODELO, AÑO, COLOR, SERIAL, ESTADO) VALUES [*]"; se esperaba "ROW, (, DEFAULT, NOT, EXISTS, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO VEHICULO (MARCA, MODELO, AÑO, COLOR, SERIAL, ESTADO) VALUES [*]"; expected "ROW, (, DEFAULT, NOT, EXISTS, INTERSECTS"; SQL statement:
+INSERT INTO Vehiculo (marca, modelo, año, color, serial, estado) VALUES [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Toyota'[*], 'Corolla', 2021, 'Negro', '1234A', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Toyota'[*], 'Corolla', 2021, 'Negro', '1234A', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Toyota', 'Corolla', 2021, 'Negro', '1234A', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Nissan'[*], 'Sentra', 2020, 'Rojo', '5678B', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Nissan'[*], 'Sentra', 2020, 'Rojo', '5678B', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Nissan', 'Sentra', 2020, 'Rojo', '5678B', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Honda'[*], 'Civic', 2019, 'Blanco', '9012C', 'DISPONIBLE')"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Honda'[*], 'Civic', 2019, 'Blanco', '9012C', 'DISPONIBLE')"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Honda', 'Civic', 2019, 'Blanco', '9012C', 'DISPONIBLE') [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "VENDEDOR" no encontrada
+Table "VENDEDOR" not found; SQL statement:
+INSERT INTO Vendedor (nombres, apellidos, fechaNacimiento, identificacion, fechaIngreso, cargo) VALUES [42102-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Juan'[*], 'Pérez', '1995-01-01', '123456789', '2020-01-01', 'Gerente Comercial'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Juan'[*], 'Pérez', '1995-01-01', '123456789', '2020-01-01', 'Gerente Comercial'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Juan', 'Pérez', '1995-01-01', '123456789', '2020-01-01', 'Gerente Comercial'), [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('María'[*], 'Gómez', '1996-02-02', '234567890', '2021-02-02', 'Coordinador Comercial'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('María'[*], 'Gómez', '1996-02-02', '234567890', '2021-02-02', 'Coordinador Comercial'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('María', 'Gómez', '1996-02-02', '234567890', '2021-02-02', 'Coordinador Comercial'), [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Pedro'[*], 'Martínez', '1997-03-03', '345678901', '2022-03-03', 'Auxiliar Vitrina')"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Pedro'[*], 'Martínez', '1997-03-03', '345678901', '2022-03-03', 'Auxiliar Vitrina')"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Pedro', 'Martínez', '1997-03-03', '345678901', '2022-03-03', 'Auxiliar Vitrina') [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTE" no encontrada
+Table "CLIENTE" not found; SQL statement:
+INSERT INTO Cliente (nombres, apellidos, fechaNacimiento, identificacion, telefono, celular) VALUES [42102-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Andrea'[*], 'López', '1998-04-04', '456789012', '555-1234', '555-9876'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Andrea'[*], 'López', '1998-04-04', '456789012', '555-1234', '555-9876'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Andrea', 'López', '1998-04-04', '456789012', '555-1234', '555-9876'), [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Jorge'[*], 'Díaz', '1999-05-05', '567890123', '555-2345', '555-8765'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Jorge'[*], 'Díaz', '1999-05-05', '567890123', '555-2345', '555-8765'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Jorge', 'Díaz', '1999-05-05', '567890123', '555-2345', '555-8765'), [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Ana'[*], 'González', '2000-06-06', '678901234', '555-3456', '555-7654')"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Ana'[*], 'González', '2000-06-06', '678901234', '555-3456', '555-7654')"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Ana', 'González', '2000-06-06', '678901234', '555-3456', '555-7654') [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO VEHICULO (MARCA, MODELO, AÑO, COLOR, SERIAL, ESTADO) VALUES [*]"; se esperaba "ROW, (, DEFAULT, NOT, EXISTS, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO VEHICULO (MARCA, MODELO, AÑO, COLOR, SERIAL, ESTADO) VALUES [*]"; expected "ROW, (, DEFAULT, NOT, EXISTS, INTERSECTS"; SQL statement:
+insert into Vehiculo (marca, modelo, año, color, serial, estado) values [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Toyota'[*], 'Camry', 2020, 'Negro', 'P1234', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Toyota'[*], 'Camry', 2020, 'Negro', 'P1234', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Toyota', 'Camry', 2020, 'Negro', 'P1234', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Honda'[*], 'Civic', 2021, 'Blanco', 'P1235', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Honda'[*], 'Civic', 2021, 'Blanco', 'P1235', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Honda', 'Civic', 2021, 'Blanco', 'P1235', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Nissan'[*], 'Altima', 2019, 'Gris', 'P1236', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Nissan'[*], 'Altima', 2019, 'Gris', 'P1236', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Nissan', 'Altima', 2019, 'Gris', 'P1236', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Chevrolet'[*], 'Impala', 2018, 'Rojo', 'P1237', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Chevrolet'[*], 'Impala', 2018, 'Rojo', 'P1237', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Chevrolet', 'Impala', 2018, 'Rojo', 'P1237', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Ford'[*], 'Fusion', 2021, 'Azul', 'P1238', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Ford'[*], 'Fusion', 2021, 'Azul', 'P1238', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Ford', 'Fusion', 2021, 'Azul', 'P1238', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Jeep'[*], 'Grand Cherokee', 2020, 'Verde', 'P1239', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Jeep'[*], 'Grand Cherokee', 2020, 'Verde', 'P1239', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Jeep', 'Grand Cherokee', 2020, 'Verde', 'P1239', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Tesla'[*], 'Model 3', 2020, 'Plateado', 'P1240', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Tesla'[*], 'Model 3', 2020, 'Plateado', 'P1240', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Tesla', 'Model 3', 2020, 'Plateado', 'P1240', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Kia'[*], 'Optima', 2021, 'Morado', 'P1241', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Kia'[*], 'Optima', 2021, 'Morado', 'P1241', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Kia', 'Optima', 2021, 'Morado', 'P1241', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Subaru'[*], 'Outback', 2020, 'Naranja', 'P1242', 'DISPONIBLE'),"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Subaru'[*], 'Outback', 2020, 'Naranja', 'P1242', 'DISPONIBLE'),"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Subaru', 'Outback', 2020, 'Naranja', 'P1242', 'DISPONIBLE'), [42001-199]
+2023-02-12 02:42:26 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "('Mazda'[*], 'CX-5', 2021, 'Café', 'P1243', 'DISPONIBLE')"; se esperaba "(, WITH, SELECT, FROM, TABLE, VALUES"
+Syntax error in SQL statement "('Mazda'[*], 'CX-5', 2021, 'Café', 'P1243', 'DISPONIBLE')"; expected "(, WITH, SELECT, FROM, TABLE, VALUES"; SQL statement:
+('Mazda', 'CX-5', 2021, 'Café', 'P1243', 'DISPONIBLE') [42001-199]
